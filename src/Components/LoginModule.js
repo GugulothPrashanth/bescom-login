@@ -56,7 +56,10 @@ function LoginModule(){
                                     </div>
                                     <div className='m-3'>
                                         <label>PIN code* &nbsp;&nbsp;&nbsp;</label>
-                                        <input input="text" name='pin code'/>
+                                        <input type="text" name='pin code'/>
+                                    </div>
+                                    <div className='m-3'>
+                                        <input type='submit' name="submit"/>
                                     </div>
                             </form>
                     </div>
